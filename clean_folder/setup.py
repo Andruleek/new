@@ -6,10 +6,10 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'clean-folder = clean_folder.main:main',  # Посилання на функцію main() з clean_folder.main
+            'clean-folder=clean_folder.clean:main',
         ],
     },
     install_requires=[
-        # Залежності вашого пакету, якщо є
+        # Список залежностей, якщо потрібно
     ],
 )
